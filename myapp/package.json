@@ -1,17 +1,17 @@
 {
   "name": "myapp",
-  "version": "1.0.0",
-  "description": "Hello World express app",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "test",
-    "start": "nodemon app.js"
-
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "core-js": "^3.33.2",
+    "debug": "~2.6.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
   }
 }
